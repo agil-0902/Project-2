@@ -1,0 +1,1848 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.first-section{
+    width: 85%;
+    margin: 25px auto;
+}
+
+.text{
+    width: 112px;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 80px;
+}
+
+.sinxro{
+    width: 100%;
+}
+
+.icons{
+   margin-bottom: 30px;
+   width: 75%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.two-columns{
+    width: 75%;
+}
+
+.right-image{
+    width: 30%;
+    margin-top: 60px;
+}
+
+.inside-image{
+    width: 100%;
+}
+
+.online, .hours, .month, .down-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.size{
+    width: 22px;
+}
+
+
+.icons, .row {
+    display: flex;
+}
+
+.second-part{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    font-size: 80px;
+}
+
+
+
+@media screen and (min-width: 1139px) and (max-width: 1200px) {
+.anothers{
+     width: 80%;
+}
+}
+
+
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+
+.text{
+    width: 64px;
+}
+
+.size{
+    width: 12px;
+}
+
+.online, .hours, .month, .down-text{
+    font-size: 12px;
+}
+
+h1{
+    font-size: 46px;
+}
+
+.two-columns{
+   width: 75%;
+}
+
+
+.right-image{
+    width: 35%;
+
+}
+
+.inside-image{
+    width: 100%;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.anothers{
+    width: 60%;
+}
+
+.down-text{
+    margin-top: 20px;
+}
+
+.second-part{
+    display: flex;
+    width: 100%;
+    
+}
+
+}
+    
+
+@media screen and (min-width: 601px) and (max-width: 709px) {
+.icons{
+    width: 70%;
+}
+
+.anothers{
+    width: 90%;
+}
+
+}
+
+
+
+@media screen and (min-width: 710px) and (max-width: 814px){
+.icons{
+    width: 70%;
+}
+    
+.anothers{
+    width: 80%;
+}
+
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+.row{
+    align-items: center;
+}
+
+.text{
+    width: 52px;
+}
+
+.online, .hours, .month, .down-text{
+    font-size: 10px;
+}
+
+.size{
+    width: 10px;
+}
+
+h1{
+    font-size: 33px;
+}
+
+.second-part{
+    display: flex;
+    flex-direction: column;
+}
+
+.two-columns{
+    width: 100%;
+}
+.right-image{
+    width: 40%;
+    display: flex;
+    align-self: end; 
+
+}
+
+.anothers{
+    width: 100%;
+}
+
+
+.icons{
+    display: flex;
+    width: 80%;
+}
+
+}
+
+
+
+@media screen and (min-width: 336px) and (max-width: 600px) {
+.anothers{
+    width: 77%;
+}
+    
+}
+
+
+@media screen and (min-width: 436px) and (max-width: 600px) {
+.anothers{
+    width: 50%;
+}
+        
+}
+    
+@media screen and (min-width: 436px) and (max-width: 478px) {
+    .anothers{
+    width: 60%;
+}
+            
+}
+
+.second-section{
+    margin-top: 80px;
+    
+}
+.box{
+    margin: 25px auto;
+    display: flex;
+    align-self: center;
+    background-color: #1E4681;
+    width: 410px;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.visitor{
+    font-size: 25px;
+    color: #FFF;
+    font-family: "Roboto Slab", serif;
+    line-height: 32.5px;
+    font-weight: 400;
+}
+
+.author{
+    font-size: 20px;
+    color: #FFF;
+    font-family: "Roboto Slab", serif;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.two-sentences{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.andrew{
+    display: flex;
+    align-self: flex-end;
+    margin-top: 5px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+
+.second-section{
+    margin-top: 60px;
+        
+}
+.box{
+    margin: 25px auto;
+    display: flex;
+    align-self: center;
+    background-color: #1E4681;
+    width: 230px;
+    border-radius: 2.9px;
+    height: 120px;
+}
+
+
+.visitor{
+    font-size: 14px;
+    line-height: 18.2px;
+}
+    
+.author{
+    font-size: 12px;
+    line-height: 15.6px;
+       
+}
+    
+.two-sentences{
+    padding: 15px;
+}
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+.second-section{
+    margin-top: 40px;
+        
+}
+
+.box{
+    display: flex;
+    align-self: flex-start;
+    width: 190px;
+    border-radius: 2.33px;
+    height: 93px;
+}
+
+.visitor{
+    font-size: 11px;
+    line-height: 14.3px;
+}
+    
+.author{
+    font-size: 10px;
+    line-height: 13px;
+       
+}
+
+.two-sentences{
+    padding: 10px;
+}
+
+}
+
+.done{
+    font-weight: bold;
+    font-size: 55px;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 50px;
+}
+
+
+.left-box{
+    width: 55%;
+}
+.left-text{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 40px;
+    line-height: 1.3;
+}
+
+.second-text{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.3;
+}
+
+.prev-pic{
+    width: 300px;
+    margin-top: 20px;
+    
+}
+
+img.give.size{
+width: 100%;
+}
+
+.make-it{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bold-texts{
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.down-info{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+.lets-make{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    
+}
+
+.three-little{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 73%;
+}
+
+.third-section{
+    width: 85%;
+    margin: 25px auto;
+}
+
+.number, .two-hours, .week{
+    width: 150px;
+    line-height: 1.3;
+}
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+.done{
+    font-size: 32px;
+}
+
+.left-text, .second-text{
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+.prev-pic{
+    width: 211px;
+    
+}
+
+.give-size{
+    width: 100%;
+}
+
+.left-sit{
+    width: 134px;
+}
+
+.sitting{
+    width: 100%;
+}
+
+.bold-texts{
+    font-size: 15px;
+}
+
+.down-info{
+    font-size: 11px;
+    width: 86px;
+    height: 24px;
+}
+
+.three-little{
+    display: flex;
+    justify-content: space-evenly;
+    width: 73%;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+.done{
+    font-size: 26px;
+}
+
+.make-it{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.left-text, .second-text{
+    font-size: 12px;
+    line-height: 1.2;
+    
+}
+
+.prev-pic{
+    width: 170px;
+    display: flex;
+    align-self: center;
+    
+}
+.give-size{
+    width: 100%;
+}
+
+.left-sit{
+    display: none;
+}
+
+.bold-texts{
+    font-size: 12px;
+}
+
+.down-info{
+    font-size: 10px;
+    width: 86px;
+    height: 39px;
+    
+}
+
+.lets-make{
+    margin-top: 30px;
+}
+
+.three-little{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: start;
+
+}
+
+.number, .two-hours, .week{
+    width: 100px;
+    line-height: 1.3;
+}
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 379px) {
+.three-little{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: start;
+    
+}
+
+.bold-texts{
+    font-size: 10px;
+}
+    
+.down-info{
+    font-size: 8px;
+    width: 76px;
+    height: 39px;
+        
+}
+
+.number, .two-hours, .week{
+    width: 75px;
+    line-height: 1.3;
+}
+
+}
+    
+
+
+@media screen and (min-width: 569px) and (max-width: 600px) {
+.number, .two-hours, .week{
+     width: 110px;
+    line-height: 1.3;
+}
+
+}
+
+.fourth-section{
+    margin: 130px auto;
+    width: 85%;
+    
+}
+
+.form{
+    font-size: 55px;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+.form{
+    margin-top: 120px;
+}
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+.form{
+    font-size: 32px;
+    margin-top: 70px;
+}
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+.form{
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+}
+
+
+.fifth-section{
+    margin: 25px auto;
+    width: 85%;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #1E4681;
+    margin-bottom: 10px;
+}
+
+.blues{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.one{
+    width: 223px;
+}
+
+.two{
+    width: 271px;
+}
+
+.three{
+    width: 245px;
+}
+
+.same{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+h3{
+    font-size: 15px;
+
+}
+
+.same{
+    font-size: 11px;
+}
+
+.one{
+    width: 153px;
+}
+    
+.two{
+    width: 172px;
+}
+    
+.three{
+    width: 141px;
+}
+
+.fourth-section{
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+.blues{
+    width: 95%;
+}
+    
+}
+
+@media screen and (min-width: 601px) and (max-width: 785px) {
+.blues{
+    width: 95%;
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+.blues{
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.same{
+    font-size: 10px;
+}
+
+.one{
+    width: 180px;
+}
+
+.two{
+    width: 165px;
+}
+
+.three{
+    width: 159px;
+}
+
+.fourth-section{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+}
+
+.sixth-section{
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+.sixth-section{
+    margin-top: 100px;
+}
+    
+}
+
+@media screen and (min-width: 300px) and (max-width: 601px) {
+.sixth-section{
+    margin-top: 80px;
+}
+
+}
+
+.form{
+    font-size: 55px;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+}
+
+.seventh-section{
+    margin: 30px auto;
+    width: 85%;
+}
+
+li{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+.form{
+    margin-top: 120px;
+}
+
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+.form{
+    font-size: 32px;
+    margin-top: 70px;
+
+}
+.seventh-section{
+    margin: 20px auto;
+}
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+.form{
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+.seventh-section{
+    margin: 15px auto;
+}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+.lists{
+    width: 662px;
+}
+}
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+li{
+    font-size: 14px;
+}
+
+.lists{
+    width: 383px;
+}
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+li{
+    font-size: 12px;
+}
+
+.lists{
+    width: 299px;
+}
+
+}
+
+
+.eighth-section{
+    margin-top: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+.eighth-section{
+    margin: 100px auto;
+}
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+.eighth-section{
+    margin: 45px auto;
+}
+
+}
+
+
+.ninth-section{
+    width: 95%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxes-8{
+    margin: 25px auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.first-one{
+    width: 399px;
+    height: 328px;
+    border-radius: 30px;
+    box-shadow: 0 0 6px 2px lightgrey;
+}
+
+.oscar{
+    width: -310px;
+    height: -110px;
+}
+
+.under-oscar{
+    width: 100%;
+    height: 100%;
+}
+
+.cinema{
+    width: 365px;
+    height: 39px;
+    font-weight: bold;
+    font-size: 27px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: auto;
+}
+
+.september-8{
+    width: 260px;
+    height: 63px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: auto;
+    
+}
+
+.cinema-last{
+    width: 365px;
+    height: 39px;
+    font-weight: bold;
+    font-size: 27px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: auto;
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+
+.first-one{
+    width: 200px;
+    height: 189px;
+}
+    
+.oscar{
+    width: -231px;
+    height: -92px;
+}
+
+.cinema{
+    width: 211px;
+    height: 22px;
+    font-size: 15px;
+    margin-top: 10px;
+  
+}
+
+.cinema-last{
+    width: 210px;
+    height: 22px;
+    font-size: 15px;
+    margin-top: 10px;
+    
+}
+
+.september-8{
+    width: 180px;
+    height: 36px;
+    font-size: 14px;
+    margin-top: 10px;
+ 
+    
+}
+
+.boxes-8{
+    margin: 25px auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.ninth-section{
+    width: 90%;
+    margin-top: 20px;
+}
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 688px) {
+
+
+.ninth-section{
+    margin-top: 40px;
+}
+
+.first-one{
+    width: 173px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.september-8{
+    width: 150px;
+    font-size: 11px;
+    line-height: 1;
+        
+}
+
+
+.cinema{
+    width: 210px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.cinema-last{
+    width: 210px;
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+
+}
+
+
+@media screen and (min-width: 923px) and (max-width: 991px) {
+.first-one{
+    width: 230px;
+    height: 189px;
+}
+
+.ninth-section{
+    margin-top: 40px;
+}
+
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+.ninth-section{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.first-one{
+    border-radius: 20px;
+}
+.boxer-8{
+    
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.first-one{
+    width: 185px;
+    height: 152px;
+    align-self: center;
+        
+}
+
+.cinema{
+
+    font-size: 12px;
+    line-height: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+}
+
+.cinema-last{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 1;
+    
+
+}
+
+.september-8{
+    font-size: 11px;
+    width: 150px;
+    margin-top: 5px;
+    line-height: 1;
+}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+.ninth-section{
+    width: 95%;
+        
+       
+}
+    
+.boxes-8{
+    margin: 25px auto;
+    width: 100%;
+    gap: 20px;
+}
+    
+.first-one{
+    width: 300px;
+    height: 280px;
+        
+}
+
+.cinema{
+    font-size: 23px;
+    
+}
+
+.cinema-last{
+    font-size: 23px;
+        
+}
+
+}
+
+
+.outside{
+    width: 100%;
+    background-color: #efefef;
+    height: 780px;
+}
+.tenth-part{
+    padding-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    background-color: #efefef;
+    
+}
+
+
+.inside{
+    font-size: 55px;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    
+}
+
+.white{
+    background-color: white;
+    width: 791px;
+    height: 451px;
+    border-radius: 30px;
+    margin-top: 60px;
+    box-shadow: 0 0 6px 2px lightgrey;
+}
+.simple-text{
+    margin: 25px auto;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.left-woman{
+    width: 190px;
+    height: 169px;
+}
+
+.inside-face{
+    width: 100%;
+    height: 100%;
+}
+
+.her-name{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 20px;
+}
+.another-display{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.give-some{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.left-and-right{
+    padding-left: 25px;
+    width: 700px;
+    display: flex;
+    align-self: center;
+    
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+.outside{
+    height: 451px;
+       
+}
+
+.another-display{
+    margin-top: 10px;
+}
+
+.tenth-part{
+    padding-top: 40px;
+    
+}
+
+.inside{
+    font-size: 32px;
+}
+
+.white{
+    width: 458px;
+    height: 261px;
+    margin-top: 35px;
+    border-radius: 17px;
+    box-shadow: 0 0 3px 2px lightgrey;
+}
+
+.simple-text{
+    font-size: 12px;
+}
+
+.left-and-right{
+    width: 405px;
+}
+
+.left-woman{
+    width: 100px;
+    height: 97px;
+}
+
+.her-name{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.right-icon{
+    width: 19px;
+    height: 18px;
+}
+
+.facebook{
+    width: 100%;
+    height: 100%;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+.outside{
+    height: 423px;
+           
+}
+ 
+.another-display{
+    margin-top: 5px;
+    width: 70%;
+}
+
+.tenth-part{
+    padding-top: 20px;
+        
+}
+
+.go-down{
+    width: 257px;
+}
+.inside{
+    font-size: 26px;
+}
+
+.white{
+    width: 308px;
+    height: 248px;
+    margin-top: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 3px 1px lightgrey;
+}
+
+.simple-text{
+    font-size: 10px;
+}
+
+.left-and-right{
+    width: 266px;
+}
+
+.left-woman{
+    width: 80px;
+    height: 84px;
+}
+
+.her-name{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.right-icon{
+    width: 15px;
+    height: 17px;
+}
+
+.facebook{
+    width: 100%;
+    height: 100%;
+}
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 382px) {
+.white{
+    width: 250px;
+    height: 240px;
+}
+
+.left-and-right{
+    width: 240px;
+}
+
+.another-display{
+    margin-top: 5px;
+    width: 90%;
+}
+
+}
+
+.last-first{
+    width: 100%;
+    height: 780px;
+    background-color: #9DC9C8;
+}
+
+.three-parts{
+    width: 85%;
+    padding-left: 90px;
+    padding-top: 200px;
+}
+
+.begin-course{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 50px;
+}
+
+.keep-distance{
+    margin-bottom: 70px;
+}
+
+.short-letters{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+}
+
+.rubles{
+    font-size: 80px;
+    font-family: "Roboto", sans-serif;
+}
+
+.level{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.from-zero{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    width: 294px;
+}
+
+.give-row{
+    width: 62%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+.last-first{
+    height: 451px;
+}
+
+.three-parts{
+    padding-left: 80px;
+    padding-top: 90px;
+}
+
+.begin-course{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.short-letters{
+    font-size: 14px;
+
+}
+.rubles{
+    font-size: 46px;
+
+}
+
+.level{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.from-zero{
+    font-size: 10px;
+    width: 170px;
+}
+
+.give-row{
+    width: 78%;
+       
+}
+
+.keep-distance{
+    margin-bottom: 40px;
+}
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+.give-row{
+    width: 85%;
+       
+}
+}
+
+@media screen and (min-width: 1028px) and (max-width: 1200px){
+.give-row{
+    width: 80%;
+       
+}
+
+}
+
+@media screen and (min-width: 1074px) and (max-width: 1200px){
+.give-row{
+    width: 75%;
+       
+}
+
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1200px){
+.give-row{
+    width: 70%;
+       
+}
+
+}
+
+
+
+@media screen and (min-width: 601px) and (max-width: 663px) {
+.give-row{
+    width: 85%;
+       
+}
+
+}
+
+@media screen and (min-width: 664px) and (max-width: 713px) {
+.give-row{
+    width: 75%;
+       
+}
+
+}
+
+@media screen and (min-width: 714px) and (max-width: 991px) {
+.give-row{
+    width: 70%;
+       
+}
+
+}
+
+@media screen and (min-width: 763px) and (max-width: 793px) {
+.give-row{
+    width: 65%;
+       
+}
+    
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+.last-first{
+    height: 320px;
+}
+
+.three-parts{
+    padding-left: 40px;
+    padding-top: 45px;
+}
+
+.begin-course{
+    font-size: 26px;
+    margin-bottom: 15px;
+    width: 178px;
+}
+
+.short-letters{
+    font-size: 12px;
+
+}
+.rubles{
+    font-size: 37px;
+
+}
+
+.level{
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.from-zero{
+    font-size: 10px;
+    width: 120px;
+}
+
+.give-row{
+    width: 95%;
+       
+}
+
+.keep-distance{
+    margin-bottom: 20px;
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 402px) {
+.give-row{
+    width: 100%;
+       
+}
+
+.level{
+    font-size: 10px;
+    margin-bottom: 3px;
+}
+
+.from-zero{
+    font-size: 8px;
+    width: 100px;
+}
+
+}
+
+@media screen and (min-width: 432px) and (max-width: 600px) {
+.give-row{
+    width: 80%;
+       
+}
+
+}
+
+@media screen and (min-width: 502px) and (max-width: 600px) {
+.give-row{
+    width: 70%;
+       
+}
+}
+
+.black-one{
+    width: 100%;
+    height: 390px;
+    background-color: black;
+}
+
+.white-inside{
+    width: 85%;
+    padding-left: 90px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.white-sincro{
+    width: 115px;
+    height: 68px;
+    margin-bottom: 25px;
+}
+
+.same-sincro{
+    width: 100%;
+    height: 100%;
+}
+
+.line-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+
+.instead-of{
+    display: none;
+}
+.insta{
+    width: 33px;
+    height: 33px;
+}
+
+.insta-img{
+    width: 100%;
+    height: 100%;
+}
+
+.fb{
+    width: 32px;
+    height: 32px;
+}
+
+.fb-img{
+    width: 100%;
+    height: 100%;
+}
+
+.wk{
+    width: 35px;
+    height: 35px;
+}
+
+.wk-img{
+    width: 100%;
+    height: 100%;
+}
+
+.watsapp{
+    width: 34px;
+    height: 34px;
+}
+
+.watsapp-img{
+    width: 100%;
+    height: 100%;
+}
+
+.sincro-2020{
+    width: 230px;
+    height: 40px;
+}
+
+.enough{
+    width: 100%;
+    height: 100%;
+}
+
+.make-white{
+    color: white;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    width: 80%;
+}
+
+.last-direct{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-bottom: 15px;
+}
+
+
+.phone-and-mail{
+    width: 350px;
+}
+
+.last-email{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.white-phone{
+    width: 27px;
+    height: 27px;
+}
+
+.white-little{
+    width: 100%;
+    height: 100%;
+}
+.e-mail{
+    width: 10%;
+    height: 18px;
+    display: flex;
+    align-self: center;
+    
+    
+}
+
+.mail-photo{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+.black-one{
+    height: 225px;
+      
+}
+
+.white-inside{
+    padding-left: 65px;
+    padding-top: 25px;
+       
+}
+    
+.white-sincro{
+    width: 66px;
+    height: 39px;
+    margin-bottom: 18px;
+}
+
+.instead-of{
+    display: none;
+}
+.insta{
+    width: 19.11px;
+    height: 19.11px;
+}
+
+.fb{
+    width: 18.53px;
+    height: 18.53px;
+}
+
+.wk{
+    width: 20.27px;
+    height: 20.27px;
+}
+
+.watsapp{
+    width: 19.7px;
+    height: 19.7px;
+}
+
+.line-icons{
+        
+    width: 80%;
+    margin-bottom: 77px;
+}
+
+.sincro-2020{
+    width: 133px;
+    height: 23px;
+}
+
+.white-phone{
+    width: 15.64px;
+    height: 15.64px;
+}
+
+.make-white{
+    font-size: 14px;
+    
+}
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+.black-one{
+    height: 251px;
+      
+}
+
+.white-inside{
+    padding-left: 30px;
+    padding-top: 20px;
+       
+}
+
+.instead-of{
+    margin-top: 20px;
+}
+
+.white-sincro{
+    width: 53.59px;
+    height: 31.69px;
+    margin-bottom: 15px;
+}
+.insta{
+    width: 15.38px;
+     height: 15.38px;
+}
+
+.fb{
+    width: 14.91px;
+    height: 14.91px;
+}
+
+.wk{
+    width: 16.31px;
+    height: 16.31px;
+}
+
+.watsapp{
+    width: 15.84px;
+    height: 15.84px;
+}
+
+.line-icons{
+        
+    width: 50%;
+    margin-bottom: 1px;
+}
+
+.direct-last{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-bottom: 15px;
+}
+
+.phone-white{
+    width: 10%;
+    height: 15.64px;
+}
+
+.little-white{
+    width: 100%;
+    height: 100%;
+}
+
+.phone-and-email{
+    display: none;
+}
+
+.instead-of{
+    display: flex;
+    margin-top: 40px;
+}
+
+.sincro-2020{
+    width: 141px;
+    height: 19px;
+    margin-top: 35px;
+}
+
+.white-make{
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    width: 80%;
+}
+
+.email-last{
+    display: flex;
+    justify-content: space-between;
+        
+}
+
+.mail-e{
+    width: 10%;
+    height: 18px;
+    display: flex;
+    align-self: center;
+        
+}
+
+.photo-mail{
+    width: 100%;
+    height: 100%;
+}
+
+}
