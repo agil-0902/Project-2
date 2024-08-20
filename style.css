@@ -346,7 +346,7 @@ h1{
     font-weight: bold;
     font-size: 55px;
     font-family: "Roboto Slab", serif;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
@@ -373,7 +373,7 @@ h1{
 }
 
 img.give.size{
-width: 100%;
+    width: 100%;
 }
 
 .make-it{
@@ -417,9 +417,17 @@ width: 100%;
     line-height: 1.3;
 }
 
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    
+.done{
+    margin-bottom: 50px;
+}
+}
 @media screen and (min-width: 601px) and (max-width: 991px) {
 .done{
     font-size: 32px;
+    margin-bottom: 40px;
+
 }
 
 .left-text, .second-text{
@@ -469,6 +477,7 @@ width: 100%;
 @media screen and (min-width: 300px) and (max-width: 600px) {
 .done{
     font-size: 26px;
+    margin-bottom: 30px;
 }
 
 .make-it{
@@ -560,7 +569,7 @@ width: 100%;
 
 @media screen and (min-width: 569px) and (max-width: 600px) {
 .number, .two-hours, .week{
-     width: 110px;
+    width: 110px;
     line-height: 1.3;
 }
 
@@ -789,6 +798,7 @@ li{
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 .lists{
     width: 662px;
+    
 }
 }
 
@@ -809,7 +819,7 @@ li{
 }
 
 .lists{
-    width: 299px;
+    width: 260px;
 }
 
 }
@@ -870,7 +880,7 @@ li{
 }
 
 .cinema{
-    width: 365px;
+    width: 185px;
     height: 39px;
     font-weight: bold;
     font-size: 27px;
@@ -893,7 +903,7 @@ li{
 }
 
 .cinema-last{
-    width: 365px;
+    width: 185px;
     height: 39px;
     font-weight: bold;
     font-size: 27px;
@@ -1052,6 +1062,7 @@ li{
 .september-8{
     font-size: 11px;
     width: 150px;
+    height: 18px;
     margin-top: 5px;
     line-height: 1;
 }
@@ -1083,7 +1094,13 @@ li{
 
 .cinema-last{
     font-size: 23px;
+    width: 300px;
+    height: 54px;
         
+}
+
+.for-width{
+    width: 100%;
 }
 
 }
@@ -1258,6 +1275,7 @@ li{
 }
 
 .simple-text{
+    margin: 10px auto;
     font-size: 10px;
 }
 
