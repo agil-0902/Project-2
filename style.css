@@ -72,7 +72,7 @@ h1{
 
 
 
-@media screen and (min-width: 1139px) and (max-width: 1200px) {
+@media screen and (min-width: 1139px) and (max-width: 1228px) {
 .anothers{
      width: 80%;
 }
@@ -417,7 +417,7 @@ img.give.size{
     line-height: 1.3;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1228px) {
     
 .done{
     margin-bottom: 50px;
@@ -587,7 +587,7 @@ img.give.size{
     font-weight: bold;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1228px) {
 .form{
     margin-top: 120px;
 }
@@ -675,7 +675,7 @@ h3{
 
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1228px) {
 .blues{
     width: 95%;
 }
@@ -763,7 +763,7 @@ li{
     line-height: 1.5;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1228px) {
 .form{
     margin-top: 120px;
 }
@@ -795,7 +795,7 @@ li{
 
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1228px) {
 .lists{
     width: 662px;
     
@@ -880,7 +880,7 @@ li{
 }
 
 .cinema{
-    width: 185px;
+    width: 100%;
     height: 39px;
     font-weight: bold;
     font-size: 27px;
@@ -891,7 +891,7 @@ li{
 }
 
 .september-8{
-    width: 260px;
+    width: 250px;
     height: 63px;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -903,7 +903,7 @@ li{
 }
 
 .cinema-last{
-    width: 185px;
+    width: 100%;
     height: 39px;
     font-weight: bold;
     font-size: 27px;
@@ -980,7 +980,7 @@ li{
 }
 
 .september-8{
-    width: 150px;
+    width: 140px;
     font-size: 11px;
     line-height: 1;
         
@@ -1061,14 +1061,25 @@ li{
 
 .september-8{
     font-size: 11px;
-    width: 150px;
+    width: 130px;
     height: 18px;
     margin-top: 5px;
     line-height: 1;
 }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen  and (min-width: 300px) and (max-width: 326px) {
+    .cinema-last{
+        font-size: 11px;
+}
+}
+
+@media screen  and (min-width: 300px) and (max-width: 303px) {
+    .cinema-last{
+        font-size: 10px;
+}
+}
+@media screen and (min-width: 992px) and (max-width: 1228px) {
 .ninth-section{
     width: 95%;
         
@@ -1089,12 +1100,19 @@ li{
 
 .cinema{
     font-size: 23px;
+    width: 300px;
+    height: 54px;
     
 }
 
+p.some-width{
+    width: 300px;
+}
+
+
 .cinema-last{
     font-size: 23px;
-    width: 300px;
+    width: 100%;
     height: 54px;
         
 }
@@ -1418,14 +1436,14 @@ li{
 }
 
 
-@media screen and (min-width: 992px) and (max-width: 1200px){
+@media screen and (min-width: 992px) and (max-width: 1228px){
 .give-row{
     width: 85%;
        
 }
 }
 
-@media screen and (min-width: 1028px) and (max-width: 1200px){
+@media screen and (min-width: 1028px) and (max-width: 1228px){
 .give-row{
     width: 80%;
        
@@ -1433,7 +1451,7 @@ li{
 
 }
 
-@media screen and (min-width: 1074px) and (max-width: 1200px){
+@media screen and (min-width: 1074px) and (max-width: 1228px){
 .give-row{
     width: 75%;
        
@@ -1441,7 +1459,7 @@ li{
 
 }
 
-@media screen and (min-width: 1150px) and (max-width: 1200px){
+@media screen and (min-width: 1150px) and (max-width: 1228px){
 .give-row{
     width: 70%;
        
